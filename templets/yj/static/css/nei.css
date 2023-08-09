@@ -1,0 +1,2077 @@
+#mdA table,
+#mdA table td,
+#mdA table th {
+	border: 1px solid #333;
+	border-collapse: collapse;
+	padding-left: 5px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+#mdA table {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+
+	#mdA {
+		line-height: 1.35rem;
+	}
+
+	#mdA img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+/* 新闻内页 */
+@media screen and (min-width: 1200px) {
+
+	em,
+	i {
+		font-style: normal;
+	}
+
+	.sub {
+		position: absolute;
+		left: 0;
+		top: 59px;
+		display: none;
+		border-top: 3px solid #e5181f;
+		background: #fff;
+		width: 160px;
+		padding: 0 15px;
+	}
+
+	.sub:before {
+		content: "";
+		position: absolute;
+		background: url(https://www.jyti.cn/template/default/images/nav2ico.png) no-repeat;
+		width: 18px;
+		height: 9px;
+		left: 45px;
+		top: -9px;
+	}
+
+	.sub li {
+		height: 40px;
+		line-height: 40px;
+		border-bottom: 1px solid #e4e4e4;
+		font-size: 14px;
+		color: #333333;
+		float: none;
+		width: 100%;
+		padding: 0;
+		background: none;
+	}
+
+	.sub li a {
+		color: #333333;
+		font-weight: normal;
+		padding: 0;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+		float: none;
+	}
+
+	.sub li a:hover {
+		font-weight: normal;
+		color: #333333;
+	}
+
+	.h_nav .cur .sub li a {
+		color: #333333;
+		font-weight: normal;
+		padding: 0;
+	}
+
+	.h_nav .cur .sub li a:hover {
+		color: #333333;
+	}
+
+
+	.ty-banner-1 {
+		overflow: hidden;
+		line-height: 0;
+		text-align: center;
+	}
+
+	.ty-banner-1 img {
+		visibility: hidden;
+	}
+
+	.ty-banner-1 img.show {
+		visibility: visible;
+	}
+
+
+	.p1-search-1 {
+		background: #f2f2f2;
+		height: 82px;
+		border-bottom: 1px solid #eee;
+		overflow: hidden;
+		font-size: 14px;
+	}
+
+	.p1-search-1 p {
+		color: #444;
+		line-height: 82px;
+	}
+
+	.scgs {
+		width: 1200px;
+		margin: 0 auto 0px;
+	}
+
+	.p1-search-1 a {
+		color: #444;
+		display: inline-block;
+		margin-right: 15px;
+	}
+
+	.p1-search-1-inp {
+		width: 270px;
+		height: 30px;
+		border-radius: 20px;
+		background: #fff;
+		padding-left: 10px;
+		margin-top: 28px;
+	}
+
+	.p1-search-1-inp input {
+		border: 0;
+	}
+
+	.p1-search-1-inp1 {
+		width: 224px;
+		height: 30px;
+		line-height: 30px;
+		color: #a9a9a9;
+		float: left;
+	}
+
+	.p1-search-1-inp2 {
+		width: 30px;
+		height: 30px;
+		background: url(https://www.jyti.cn/template/default/images/VISkins-p1.png) no-repeat -258px -936px;
+		float: right;
+		cursor: pointer;
+	}
+
+
+	.p12-curmbs-1 {
+		font-size: 14px;
+		border-bottom: 1px dashed #dcdcdc;
+		position: relative;
+		padding: 10px 0px;
+	}
+
+	.p12-curblock {
+		display: none;
+	}
+
+	.p12-curmbs-1 b {
+		border-left: 10px solid #e5181f;
+		font-weight: normal;
+		padding-left: 8px;
+	}
+
+	.plc {
+		width: 1200px;
+		margin: 0 auto 20px;
+	}
+
+	.p12-curmbs-1 i {
+		font-style: normal;
+	}
+
+	.p12-curmbs-1 span {
+		font-family: '宋体';
+		padding: 0 5px;
+		height: 46px;
+		line-height: 46px;
+	}
+
+
+	.fdh-01-tit {
+		background: #e5181f;
+		height: auto;
+	}
+
+	.fdh-01-tit h3 {
+		height: 75px;
+		font-size: 24px;
+		font-weight: normal;
+		line-height: 75px;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+		text-align: center;
+	}
+
+	.fdh-01-tit h3 span {
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+
+	.fdh-01-nav-one h3 {
+		height: 50px;
+		line-height: 50px;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon5.png) no-repeat right center #ececeb;
+		margin-bottom: 2px;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav-one h3 a {
+		display: block;
+		font-size: 16px;
+		font-weight: normal;
+		margin-right: 40px;
+		margin-left: 38px;
+		color: #666666;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav-one h3.sidenavcur,
+	.fdh-01-nav-one h3:hover {
+		background: url(https://www.jyti.cn/template/default/images/p14-icon2.png) no-repeat right center #e5181f;
+	}
+
+	.fdh-01-nav-one h3.sidenavcur a,
+	.fdh-01-nav-one h3:hover a {
+		color: #fff;
+	}
+
+	.fdh-01-nav dl {
+		padding: 2px 0 4px;
+	}
+
+	.fdh-01-nav dt {
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		padding-left: 54px;
+		padding-right: 40px;
+		margin-bottom: 1px;
+		background: #ececec;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav dt:after {
+		content: "";
+		width: 8px;
+		height: 8px;
+		border: 2px solid #b8b8b8;
+		border-style: solid solid none none;
+		position: absolute;
+		top: 50%;
+		right: 32px;
+		margin-top: -4px;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	.fdh-01-nav dt.sidenavcur:after,
+	.fdh-01-nav dt:hover:after {
+		border-color: #e5181f;
+	}
+
+	.fdh-01-nav dt.sidenavcur a,
+	.fdh-01-nav dt:hover a {
+		color: #e5181f;
+	}
+
+	.fdh-01-nav dd {
+		border: 1px solid #ececec;
+		border-bottom: 0;
+	}
+
+	.fdh-01-nav p {
+		height: 50px;
+		font-size: 14px;
+		line-height: 50px;
+		padding-left: 72px;
+		padding-right: 40px;
+		border-bottom: 1px solid #ececec;
+		background: #fff;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav p.sidenavcur a,
+	.fdh-01-nav p:hover a {
+		color: #e5181f;
+	}
+
+	.fdh-01-nav p.sidenavcur:after,
+	.fdh-01-nav p:hover:after {
+		background: #e5181f;
+	}
+
+	.fdh-01-nav a {
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+
+	.contact-z1 {
+		height: 100px;
+		background: #282b30;
+		color: #fff;
+		margin-bottom: 30px;
+	}
+
+	.contact-z1 p {
+		font-size: 17px;
+		height: 30px;
+		line-height: 30px;
+		padding: 20px 0 0 5px;
+		text-align: center;
+
+	}
+
+	.contact-z1 p img {
+		vertical-align: middle;
+	}
+
+	.contact-z1 span {
+		display: block;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+	}
+
+
+	.p15-infolist-1-t1 {
+		padding: 35px 49px 0px 21px;
+		background: #fff;
+		border-bottom: 1px dashed #cacaca;
+		margin-bottom: 20px;
+		height: 164px;
+	}
+
+	.p15-infolist-1-t1 dt {
+		position: relative;
+		height: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 8px;
+		padding-left: 68px;
+	}
+
+	.p15-infolist-1-t1 dt a {
+		display: block;
+		color: #333;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.p15-infolist-1-t1 dt span {
+		display: block;
+		width: 60px;
+		height: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		text-align: center;
+		color: #fff;
+		position: absolute;
+		top: 0;
+		left: -0px;
+		background: #e5181f;
+	}
+
+	.p15-infolist-1-t1-desc {
+		height: 72px;
+		line-height: 24px;
+		margin-bottom: 5px;
+		overflow: hidden;
+		padding-left: 68px;
+	}
+
+	.p15-infolist-1-t1-deta {
+		width: 60px;
+		float: right;
+		padding-left: 20px;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon21.png) no-repeat left center;
+	}
+
+	.p15-infolist-1-t1-deta a {
+		display: block;
+		color: #e5181f;
+	}
+
+
+
+	.k12-xl-xwlb-1nt2-1-01-list dl {
+		border: 1px solid #dedede;
+		margin-bottom: 15px;
+		padding: 20px;
+		background: #fff;
+		display: inline-block;
+		width: 856px;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dt {
+		width: 44.4%;
+		float: left;
+		margin-right: 2.3%;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dt img {
+		width: 100%;
+		display: block;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dd h4 {
+		height: 40px;
+		font-weight: normal;
+		font-size: 18px;
+		color: #154c64;
+		line-height: 40px;
+		margin-bottom: 5px;
+		overflow: hidden;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list h4 a {
+		display: block;
+		height: 40px;
+		color: #4b4a4a;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-size: 16px;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list h4 a span {
+		float: right;
+		font-size: 14px;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover {
+		border: 1px solid #e5181f;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover h4 a {
+		color: #e5181f;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list-desc {
+		max-height: 72px;
+		font-size: 14px;
+		line-height: 24px;
+		color: #797979;
+		margin-bottom: 28px;
+		overflow: hidden;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list-deta {
+		width: 90px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		display: block;
+		float: right;
+		background: #b6b6b6;
+		color: #fff;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list-deta a {
+		color: #fff;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover .k12-xl-xwlb-1nt2-1-01-list-deta {
+		background: #e5181f;
+		border-color: #e5181f;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover .k12-xl-xwlb-1nt2-1-01-list-deta a {
+		color: #fff;
+	}
+
+
+
+
+
+
+	/* 产品列表页 */
+
+
+	.pro_left_list {
+		float: left;
+		width: 240px;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.pro_left_list_title {
+		background: #0161A7;
+		height: 80px;
+		line-height: 80px;
+		font-size: 24px;
+		color: #ffffff;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.pro_left_list_yi {
+		background: url(https://www.jyti.cn/template/default/images/lbbj.jpg) center no-repeat;
+		height: 50px;
+		line-height: 50px;
+		text-align: left;
+		padding-left: 50px;
+	}
+
+	.pro_left_list_yi a {
+		font-size: 15px;
+		color: #333333;
+		display: block;
+	}
+
+	.pro_left_list_er {
+		height: 40px;
+		line-height: 40px;
+		padding-left: 50px;
+		background: #fafafa url(https://www.jyti.cn/template/default/images/left_jiantou.png) no-repeat;
+		background-position: 30px;
+		border-bottom: #dcdcdc 1px solid;
+	}
+
+	.pro_left_list_er a {
+		font-size: 15px;
+		color: #333333;
+		display: block;
+	}
+
+
+
+	.cplb-3n-ts-03-tit {
+		height: 50px;
+		font-size: 24px;
+		font-weight: normal;
+		line-height: 50px;
+		border-bottom: 1px solid #ebebeb;
+		margin-bottom: 15px;
+	}
+
+	.cplb-3n-ts-03-tit span {
+		display: inline-block;
+		height: 50px;
+		border-bottom: 1px solid #e5181f;
+	}
+
+	.cplb-3n-ts-03-list {
+		width: 930px;
+		height: auto;
+		overflow: hidden;
+		float: right;
+	}
+
+	.cplb-3n-ts-03-list li {
+		width: 300px;
+		border: 1px solid #dedede;
+		margin-bottom: 15px;
+		background: #fff;
+		float: left;
+		margin-right: 12px;
+	}
+
+	.cplb-3n-ts-03-list li:nth-child(3n+3) {
+		margin-right: 0;
+	}
+
+	.cplb-3n-ts-03-list .tupian img {
+		width: 98%;
+		height: 250px;
+		margin: 5px auto;
+		display: block;
+	}
+
+
+	.cplb-3n-ts-03-list .mingcheng {
+		/* padding: 6px 20px 5px 20px; */
+	}
+
+	.cplb-3n-ts-03-list .mingcheng h4 {
+		height: 35px;
+		font-weight: normal;
+		font-size: 16px;
+		color: #154c64;
+		line-height: 35px;
+		overflow: hidden;
+		text-align: center
+	}
+
+	.cplb-3n-ts-03-list h4 a {
+		display: block;
+		height: 35px;
+		color: #333;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.cplb-3n-ts-03-list li:hover h4 a {
+		color: #333;
+	}
+
+	.cplb-3n-ts-03-list-desc {
+		height: 40px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #666;
+		margin-bottom: 12px;
+		overflow: hidden;
+	}
+
+	.cplb-3n-ts-03-list-deta {
+		width: 100px;
+		height: 40px;
+		display: inline-block;
+		border: 1px solid #aaa;
+		font-size: 16px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	/*
+.cplb-3n-ts-03-list li:hover {
+	background-color: #e5181f;
+	border-color: #e5181f;
+}*/
+
+	.cplb-3n-ts-03-list li:hover a {
+		color: #e5181f;
+	}
+
+
+	/* 产品详情页 */
+
+	.tit {
+		font-size: 28px;
+		text-align: center;
+		margin: 25px 0;
+		background: url(https://www.jyti.cn/template/default/images/miaoshuge.png) no-repeat center -25px;
+	}
+
+	.wmen {}
+
+	.chi {
+		margin-bottom: 5px;
+		font-weight: bold;
+		color: #333;
+		letter-spacing: 2px;
+	}
+
+	.eng {
+		text-transform: uppercase;
+		font-weight: 100;
+		font-size: 16px;
+	}
+
+
+
+
+
+
+	.cbgg-01 {
+		background: #e5181f;
+		text-align: center;
+		color: #fff;
+		padding-bottom: 20px;
+	}
+
+	.cbgg-01 p {
+		color: #fff;
+	}
+
+	.cbgg-01 span {
+		color: #fff;
+	}
+
+	.cbgg-01 font {
+		text-align: left;
+		display: block;
+		background-color: #ffffff;
+		width: 100%;
+		color: #333333;
+		line-height: 28px;
+		font-size: 14px;
+		padding-top: 20px;
+	}
+
+	.cbgg-01-img img {
+		width: 100%;
+		display: block;
+	}
+
+	.cbgg-01 p {
+		padding: 15px 0 10px;
+	}
+
+	.cbgg-01 p img {
+		vertical-align: middle;
+		margin: 0px auto;
+	}
+
+	.cbgg-01 span {
+		display: block;
+		font-size: 24px;
+		font-weight: bold;
+		font-family: Arial;
+		line-height: 30px;
+	}
+
+
+	.pc-cx-tel-1 {
+		width: 40%;
+		height: 56px;
+		border-top: 2px solid #e6e6e6;
+		padding-top: 10px;
+		position: absolute;
+		bottom: 16px;
+		right: 2%;
+	}
+
+	.pc-cx-tel-1-t1 {
+		width: 114px;
+		height: 44px;
+		background: #e5181f;
+		font-size: 18px;
+		line-height: 44px;
+		text-align: center;
+		float: right;
+	}
+
+	.pc-cx-tel-1-t1 a {
+		display: block;
+		color: #fff;
+	}
+
+	.pc-cx-tel-1-t2 {
+		height: 56px;
+		padding-left: 70px;
+		background: url(https://www.jyti.cn/template/default/images/pc-xc-icon2.png) no-repeat 10px top;
+		font-size: 20px;
+		line-height: 18px;
+		color: #454545;
+	}
+
+	.pc-cx-tel-1-t2 p {
+		line-height: 38px;
+	}
+
+
+	.p15-showcase {
+		position: relative;
+		padding: 12px 18px 16px 20px;
+		margin-bottom: 15px;
+		background: #fff;
+		border: 1px solid #eee;
+	}
+
+	.p15-showcase-right-con {
+		line-height: 24px;
+		font-size: 14px;
+		max-height: 168px;
+		margin-bottom: 86px;
+		overflow: hidden;
+	}
+
+	.p15-showcase-left {
+		position: relative;
+		width: 55%;
+		float: left;
+		line-height: 0;
+		overflow: hidden;
+		border: 1px solid #e7e7e7;
+		margin-right: 3.3%;
+	}
+
+	.p15-showcase-left-jt {
+		width: 12px;
+		height: 23px;
+		position: absolute;
+		top: 50%;
+		margin-top: -11px;
+		cursor: pointer;
+		z-index: 33;
+	}
+
+	.p15-showcase-left-prev {
+		left: 10px;
+	}
+
+	.p15-showcase-left-next {
+		right: 10px;
+	}
+
+	.p15-showcase-left-size {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 56px;
+		height: 28px;
+		font-size: 14px;
+		line-height: 16px;
+		padding: 0 15px;
+	}
+
+	.p15-showcase-left-size em {
+		font-style: normal;
+	}
+
+	.p15-showcase-left-pic {
+		width: 100%;
+		text-align: center;
+	}
+
+	.p15-showcase-left-pic li {
+		float: left;
+	}
+
+	.p15-showcase-left-pic img {
+		width: 100%;
+		display: block;
+	}
+
+	.p15-showcase-right {
+		width: 40%;
+		float: right;
+	}
+
+	.p15-showcase-right-tit {
+		height: 40px;
+		font-size: 24px;
+		line-height: 40px;
+		color: #454545;
+		margin-bottom: 16px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+
+	.p14-prodcontent-1 {
+		background: #fff;
+		padding: 12px 0 2px;
+		margin-bottom: 22px;
+	}
+
+	.p14-prodcontent-1-tit {
+		height: 40px;
+		font-size: 24px;
+		line-height: 40px;
+		border-bottom: 2px solid #d4d4d4;
+		margin-bottom: 20px;
+	}
+
+	.p14-prodcontent-1-tit span {
+		display: inline-block;
+		height: 40px;
+		color: #464646;
+		border-bottom: 2px solid #e5181f;
+		padding-left: 34px;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon11.png) no-repeat 2px center;
+	}
+
+	.p14-prodcontent-1-tit em {
+		font-size: 18px;
+		font-family: Arial;
+		text-transform: uppercase;
+		font-style: normal;
+		color: #c2c2c1;
+	}
+
+	/*.p14-prodcontent-1-desc {*/
+	/*    padding-left: 15px;*/
+	/*    padding-right: 15px;*/
+	/*}*/
+
+
+	.p14-product-2-tit {
+		height: 46px;
+		line-height: 46px;
+		border-bottom: 2px solid #dfdfdf;
+		margin-bottom: 30px;
+		padding-top: 26px;
+	}
+
+	.p14-product-2-tit b {
+		display: inline-block;
+		font-size: 24px;
+		font-weight: normal;
+		color: #464646;
+		padding-left: 30px;
+		border-bottom: 2px solid #e5181f;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon11.png) no-repeat 2px center;
+	}
+
+	.p14-product-2-tit span {
+		margin-left: 10px;
+		font-size: 18px;
+		font-family: Arial;
+		color: #c2c2c1;
+		text-transform: uppercase;
+	}
+
+	.p14-product-2-list dl {
+		float: left;
+		width: 23.5%;
+		border: 1px solid #dfdfdf;
+		margin-right: 1.5%;
+		box-sizing: border-box;
+	}
+
+	.p14-product-2-list dl.p14-product-clear {
+		margin-right: 0;
+	}
+
+	.p14-product-2-list dl img {
+		display: block;
+		width: 100%;
+	}
+
+	.p14-product-2-list dd {
+		padding: 10px 28px 10px 10px;
+		margin-right: 2px;
+		position: relative;
+	}
+
+	.p14-product-2-list h3 {
+		height: 30px;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 30px;
+		color: #191919;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.p14-product-2-list h3 a {
+		color: #191919;
+	}
+
+	.p14-product-2-desc {
+		font-size: 14px;
+		line-height: 24px;
+		color: #666;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.p14-product-2-list dl:hover {
+		border-color: #e5181f;
+	}
+
+	.p14-product-2-list dl:hover h3 a {
+		color: #e5181f;
+	}
+
+
+
+
+	/* 联系我们 */
+
+	.contactus ul {
+		height: 180px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.contactus ul li {
+		border-bottom: 1px dashed #e9e9e9;
+		float: left;
+		height: 45px;
+		line-height: 45px;
+		margin: 14px 0 0;
+		padding: 0 0 14px 70px;
+		width: 500px;
+	}
+
+	.dianhua {
+		background: url(https://www.jyti.cn/template/default/images/dianhua.png) left top no-repeat;
+	}
+
+	.shouji {
+		background: url(https://www.jyti.cn/template/default/images/shouji.png) left top no-repeat;
+	}
+
+	.chuanzhen {
+		background: url(https://www.jyti.cn/template/default/images/chuanzhen.png) left top no-repeat;
+	}
+
+	.qq {
+		background: url(https://www.jyti.cn/template/default/images/qq.png) left top no-repeat;
+	}
+
+	.youxiang {
+		background: url(https://www.jyti.cn/template/default/images/youxiang.png) left top no-repeat;
+	}
+
+	.dizhi {
+		background: url(https://www.jyti.cn/template/default/images/dizhi.png) left top no-repeat;
+	}
+
+
+
+	.obnpp {
+		font-size: 22px;
+		font-weight: bold;
+		color: #ceae75;
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid #eee;
+	}
+
+
+	.neirong {
+		line-height: 35px;
+	}
+
+	.neirong p {
+		font-size: 15px;
+	}
+
+	.lxwo {}
+
+	.lxwo ul li {
+		float: left;
+	}
+
+	.lxwo li {
+		display: flex;
+		/* justify-content: center; */
+		align-items: center;
+		width: 50%;
+		text-align: left;
+		height: 35px;
+		line-height: 35px;
+		font-size: 16px;
+	}
+
+	.lxwo li img {
+		width: 25px;
+		height: 25px;
+		margin-right: 5px;
+	}
+
+
+}
+
+
+
+
+/* 手机开始 */
+
+
+
+@media (max-width: 768px) {
+
+	em,
+	i {
+		font-style: normal;
+	}
+
+	.nbanner {
+		margin-top: 45px;
+	}
+
+	.blk-xs {
+		display: none;
+	}
+
+	.blk-sm {
+		width: 98%;
+		padding: 1%;
+		position: relative;
+	}
+
+	.blk-main {
+		width: 100%;
+		margin: 0 auto;
+		padding: 1%;
+	}
+
+	.sub {
+		position: absolute;
+		left: 0;
+		top: 59px;
+		display: none;
+		border-top: 3px solid #e5181f;
+		background: #fff;
+		width: 160px;
+		padding: 0 15px;
+	}
+
+	.sub:before {
+		content: "";
+		position: absolute;
+		background: url(https://www.jyti.cn/template/default/images/nav2ico.png) no-repeat;
+		width: 18px;
+		height: 9px;
+		left: 45px;
+		top: -9px;
+	}
+
+	.sub li {
+		height: 40px;
+		line-height: 40px;
+		border-bottom: 1px solid #e4e4e4;
+		font-size: 14px;
+		color: #333333;
+		float: none;
+		width: 100%;
+		padding: 0;
+		background: none;
+	}
+
+	.sub li a {
+		color: #333333;
+		font-weight: normal;
+		padding: 0;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+		float: none;
+	}
+
+	.sub li a:hover {
+		font-weight: normal;
+		color: #333333;
+	}
+
+	.h_nav .cur .sub li a {
+		color: #333333;
+		font-weight: normal;
+		padding: 0;
+	}
+
+	.h_nav .cur .sub li a:hover {
+		color: #333333;
+	}
+
+
+	.ty-banner-1 {
+		overflow: hidden;
+		line-height: 0;
+		text-align: center;
+	}
+
+	.ty-banner-1 img {
+		visibility: hidden;
+	}
+
+	.ty-banner-1 img.show {
+		visibility: visible;
+	}
+
+
+	.p1-search-1 {
+		background: #f2f2f2;
+		height: 82px;
+		border-bottom: 1px solid #eee;
+		overflow: hidden;
+		font-size: 14px;
+	}
+
+	.p1-search-1 p {
+		color: #444;
+		line-height: 82px;
+	}
+
+	.scgs {
+		width: 1200px;
+		margin: 0 auto 0px;
+	}
+
+	.p1-search-1 a {
+		color: #444;
+		display: inline-block;
+		margin-right: 15px;
+	}
+
+	.p1-search-1-inp {
+		width: 270px;
+		height: 30px;
+		border-radius: 20px;
+		background: #fff;
+		padding-left: 10px;
+		margin-top: 28px;
+	}
+
+	.p1-search-1-inp input {
+		border: 0;
+	}
+
+	.p1-search-1-inp1 {
+		width: 224px;
+		height: 30px;
+		line-height: 30px;
+		color: #a9a9a9;
+		float: left;
+	}
+
+	.p1-search-1-inp2 {
+		width: 30px;
+		height: 30px;
+		background: url(https://www.jyti.cn/template/default/images/VISkins-p1.png) no-repeat -258px -936px;
+		float: right;
+		cursor: pointer;
+	}
+
+
+	.p12-curmbs-1 {
+		font-size: 0.875rem;
+		border-bottom: 1px dashed #dcdcdc;
+		position: relative;
+	}
+
+	.p12-curblock {
+		display: none;
+	}
+
+	.p12-curmbs-1 b {
+		border-left: 10px solid #e5181f;
+		font-weight: normal;
+		padding-left: 8px;
+	}
+
+	.plc {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.p12-curmbs-1 i {
+		font-style: normal;
+	}
+
+	.p12-curmbs-1 span {
+		font-family: '宋体';
+		padding: 0 5px;
+		height: 30px;
+		line-height: 30px;
+	}
+
+
+	.fdh-01-tit {
+		background: #e5181f;
+		height: 80px;
+	}
+
+	.fdh-01-tit h3 {
+		height: 75px;
+		font-size: 24px;
+		font-weight: normal;
+		line-height: 75px;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+		text-align: center;
+	}
+
+	.fdh-01-tit h3 span {
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+
+	.fdh-01-nav-one h3 {
+		height: 50px;
+		line-height: 50px;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon5.png) no-repeat right center #ececeb;
+		margin-bottom: 2px;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav-one h3 a {
+		display: block;
+		font-size: 18px;
+		font-weight: normal;
+		margin-right: 40px;
+		margin-left: 38px;
+		color: #666666;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav-one h3.sidenavcur,
+	.fdh-01-nav-one h3:hover {
+		background: url(https://www.jyti.cn/template/default/images/p14-icon2.png) no-repeat right center #e5181f;
+	}
+
+	.fdh-01-nav-one h3.sidenavcur a,
+	.fdh-01-nav-one h3:hover a {
+		color: #fff;
+	}
+
+	.fdh-01-nav dl {
+		padding: 2px 0 4px;
+	}
+
+	.fdh-01-nav dt {
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		padding-left: 54px;
+		padding-right: 40px;
+		margin-bottom: 1px;
+		background: #ececec;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav dt:after {
+		content: "";
+		width: 8px;
+		height: 8px;
+		border: 2px solid #b8b8b8;
+		border-style: solid solid none none;
+		position: absolute;
+		top: 50%;
+		right: 32px;
+		margin-top: -4px;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	.fdh-01-nav dt.sidenavcur:after,
+	.fdh-01-nav dt:hover:after {
+		border-color: #e5181f;
+	}
+
+	.fdh-01-nav dt.sidenavcur a,
+	.fdh-01-nav dt:hover a {
+		color: #e5181f;
+	}
+
+	.fdh-01-nav dd {
+		border: 1px solid #ececec;
+		border-bottom: 0;
+	}
+
+	.fdh-01-nav p {
+		height: 50px;
+		font-size: 14px;
+		line-height: 50px;
+		padding-left: 72px;
+		padding-right: 40px;
+		border-bottom: 1px solid #ececec;
+		background: #fff;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.fdh-01-nav p.sidenavcur a,
+	.fdh-01-nav p:hover a {
+		color: #e5181f;
+	}
+
+	.fdh-01-nav p.sidenavcur:after,
+	.fdh-01-nav p:hover:after {
+		background: #e5181f;
+	}
+
+	.fdh-01-nav a {
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+
+	.contact-z1 {
+		height: 100px;
+		background: #282b30;
+		color: #fff;
+		margin-bottom: 30px;
+	}
+
+	.contact-z1 p {
+		font-size: 17px;
+		height: 30px;
+		line-height: 30px;
+		padding: 20px 0 0 5px;
+		text-align: center;
+
+	}
+
+	.contact-z1 p img {
+		vertical-align: middle;
+	}
+
+	.contact-z1 span {
+		display: block;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+	}
+
+
+	.p15-infolist-1-t1 {
+		padding: 35px 49px 0px 21px;
+		background: #fff;
+		border-bottom: 1px dashed #cacaca;
+		margin-bottom: 20px;
+		height: 164px;
+	}
+
+	.p15-infolist-1-t1 dt {
+		position: relative;
+		height: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 8px;
+		padding-left: 68px;
+	}
+
+	.p15-infolist-1-t1 dt a {
+		display: block;
+		color: #333;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.p15-infolist-1-t1 dt span {
+		display: block;
+		width: 60px;
+		height: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		text-align: center;
+		color: #fff;
+		position: absolute;
+		top: 0;
+		left: -0px;
+		background: #e5181f;
+	}
+
+	.p15-infolist-1-t1-desc {
+		height: 72px;
+		line-height: 24px;
+		margin-bottom: 5px;
+		overflow: hidden;
+		padding-left: 68px;
+	}
+
+	.p15-infolist-1-t1-deta {
+		width: 60px;
+		float: right;
+		padding-left: 20px;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon21.png) no-repeat left center;
+	}
+
+	.p15-infolist-1-t1-deta a {
+		display: block;
+		color: #e5181f;
+	}
+
+
+
+	.k12-xl-xwlb-1nt2-1-01-list dl {
+		border: 1px solid #dedede;
+		margin-bottom: 0.9375rem;
+		background: #fff;
+		display: inline-block;
+		width: 96%;
+		padding: 1%;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dt {
+		width: 100%;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dt img {
+		width: 100%;
+		display: block;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dd h4 {
+		height: 2.5rem;
+		font-weight: normal;
+		font-size: 1rem;
+		color: #154c64;
+		line-height: 2.5rem;
+		margin-bottom: 0.3125rem;
+		overflow: hidden;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list h4 a {
+		display: block;
+		height: 2.5rem;
+		color: #4b4a4a;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover {
+		border: 1px solid #e5181f;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list h4 a span {
+		float: right;
+		font-size: 0.875rem;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover h4 a {
+		color: #e5181f;
+	}
+
+
+	.k12-xl-xwlb-1nt2-1-01-list-desc {
+		max-height: 72px;
+		font-size: 14px;
+		line-height: 24px;
+		color: #797979;
+		margin-bottom: 1rem;
+		overflow: hidden;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list-deta {
+		width: 90px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		display: block;
+		float: right;
+		background: #b6b6b6;
+		color: #fff;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list-deta a {
+		color: #fff;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover .k12-xl-xwlb-1nt2-1-01-list-deta {
+		background: #e5181f;
+		border-color: #e5181f;
+	}
+
+	.k12-xl-xwlb-1nt2-1-01-list dl:hover .k12-xl-xwlb-1nt2-1-01-list-deta a {
+		color: #fff;
+	}
+
+
+
+
+
+
+	/* 产品列表页 */
+
+
+	.cplb-3n-ts-03-tit {
+		height: 3.125rem;
+		font-size: 1.25rem;
+		font-weight: normal;
+		line-height: 3.125rem;
+		border-bottom: 1px solid #ebebeb;
+		margin-bottom: 0.9375rem;
+		text-align: center;
+	}
+
+	.cplb-3n-ts-03-tit span {
+		display: inline-block;
+		height: 50px;
+		border-bottom: 1px solid #e5181f;
+	}
+
+	.cplb-3n-ts-03-list {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		float: right;
+
+	}
+
+	.cplb-3n-ts-03-list li {
+		width: 48%;
+		border: 1px solid #dedede;
+		margin-bottom: 15px;
+		background: #efefef;
+		float: left;
+		margin-right: 1%;
+	}
+
+	/* .cplb-3n-ts-03-list li:last-child{
+		display: none;
+	} */
+	.cplb-3n-ts-03-list li:nth-child(2n+2) {
+		margin-right: 0;
+	}
+
+	.cplb-3n-ts-03-list .tupian img {
+		width: 100%;
+		height: 150px;
+		margin: 0 auto;
+		display: block;
+	}
+
+
+
+
+	.cplb-3n-ts-03-list .mingcheng {
+		padding: 6px 20px 5px 20px;
+	}
+
+	.cplb-3n-ts-03-list .mingcheng h4 {
+		height: 1.875rem;
+		font-weight: normal;
+		font-size: 0.875rem color: #154c64;
+		line-height: 1.875rem;
+		overflow: hidden;
+		text-align: center
+	}
+
+	.cplb-3n-ts-03-list h4 a {
+		display: block;
+		height: 1.875rem;
+		color: #727272;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.cplb-3n-ts-03-list li:hover h4 a {
+		color: #fff;
+	}
+
+	.cplb-3n-ts-03-list-desc {
+		height: 40px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #666;
+		margin-bottom: 12px;
+		overflow: hidden;
+	}
+
+	.cplb-3n-ts-03-list-deta {
+		width: 100px;
+		height: 40px;
+		display: inline-block;
+		border: 1px solid #aaa;
+		font-size: 16px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	.cplb-3n-ts-03-list li:hover {
+		background-color: #e5181f;
+		border-color: #e5181f;
+	}
+
+	.cplb-3n-ts-03-list li:hover a {
+		color: #e5181f;
+	}
+
+
+	/* 产品详情页 */
+
+	.tit {
+		font-size: 28px;
+		text-align: center;
+		margin: 25px 0;
+		background: url(https://www.jyti.cn/template/default/images/miaoshuge.png) no-repeat center -25px;
+	}
+
+	.wmen {}
+
+	.chi {
+		margin-bottom: 5px;
+		font-weight: bold;
+		color: #333;
+		letter-spacing: 2px;
+	}
+
+	.eng {
+		text-transform: uppercase;
+		font-weight: 100;
+		font-size: 16px;
+	}
+
+
+
+
+
+
+	.cbgg-01 {
+		background: #e5181f;
+		text-align: center;
+		color: #fff;
+		padding-bottom: 20px;
+	}
+
+	.cbgg-01-img img {
+		width: 100%;
+		display: block;
+	}
+
+	.cbgg-01 p {
+		padding: 15px 0 10px;
+	}
+
+	.cbgg-01 p img {
+		vertical-align: middle;
+		margin-right: 5px;
+	}
+
+	.cbgg-01 span {
+		display: block;
+		font-size: 24px;
+		font-weight: bold;
+		font-family: Arial;
+		line-height: 30px;
+	}
+
+
+	.pc-cx-tel-1 {
+		width: 100%;
+		height: 56px;
+		border-top: 1px solid #e6e6e6;
+		padding-top: 10px;
+	}
+
+	.pc-cx-tel-1-t1 {
+		width: 114px;
+		height: 44px;
+		background: #e5181f;
+		font-size: 18px;
+		line-height: 44px;
+		text-align: center;
+		float: right;
+	}
+
+	.pc-cx-tel-1-t1 a {
+		display: block;
+		color: #fff;
+	}
+
+	.pc-cx-tel-1-t2 {
+		height: 56px;
+		padding-left: 70px;
+		background: url(https://www.jyti.cn/template/default/images/pc-xc-icon2.png) no-repeat 10px top;
+		font-size: 20px;
+		line-height: 18px;
+		color: #454545;
+	}
+
+	.pc-cx-tel-1-t2 p {
+		line-height: 38px;
+	}
+
+
+	.p15-showcase {
+		position: relative;
+		padding: 10px;
+		margin-bottom: 15px;
+		background: #fff;
+		border: 1px solid #eee;
+	}
+
+	.p15-showcase-right-con {
+		display: none;
+		line-height: 24px;
+		font-size: 14px;
+		max-height: 168px;
+		margin-bottom: 86px;
+		overflow: hidden;
+	}
+
+	.p15-showcase-left {
+		position: relative;
+		width: 96.7%;
+		float: left;
+		line-height: 0;
+		overflow: hidden;
+		border: 1px solid #e7e7e7;
+		margin-right: 3.3%;
+	}
+
+	.p15-showcase-left-jt {
+		width: 12px;
+		height: 23px;
+		position: absolute;
+		top: 50%;
+		margin-top: -11px;
+		cursor: pointer;
+		z-index: 33;
+	}
+
+	.p15-showcase-left-prev {
+		left: 10px;
+	}
+
+	.p15-showcase-left-next {
+		right: 10px;
+	}
+
+	.p15-showcase-left-size {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 56px;
+		height: 28px;
+		font-size: 14px;
+		line-height: 16px;
+		padding: 0 15px;
+	}
+
+	.p15-showcase-left-size em {
+		font-style: normal;
+	}
+
+	.p15-showcase-left-pic {
+		width: 100%;
+		text-align: center;
+	}
+
+	.p15-showcase-left-pic li {
+		float: left;
+	}
+
+	.p15-showcase-left-pic img {
+		width: 100%;
+		display: block;
+	}
+
+	.p15-showcase-right {
+		width: 100%;
+		float: right;
+	}
+
+	.p15-showcase-right-tit {
+		height: 2rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
+		color: #454545;
+		margin-bottom: 1rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+
+	.p14-prodcontent-1 {
+		background: #fff;
+		padding: 12px 0 2px;
+		margin-bottom: 22px;
+	}
+
+	.p14-prodcontent-1-tit {
+		height: 40px;
+		font-size: 1rem;
+		line-height: 40px;
+		border-bottom: 2px solid #d4d4d4;
+		margin-bottom: 20px;
+	}
+
+	.p14-prodcontent-1-tit span {
+		display: inline-block;
+		height: 40px;
+		color: #464646;
+		border-bottom: 2px solid #e5181f;
+		padding-left: 34px;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon11.png) no-repeat 2px center;
+	}
+
+	.p14-prodcontent-1-tit em {
+		font-size: 0.875rem;
+		font-family: Arial;
+		text-transform: uppercase;
+		font-style: normal;
+		color: #c2c2c1;
+	}
+
+	/*.p14-prodcontent-1-desc {*/
+	/*    padding-left: 15px;*/
+	/*    padding-right: 15px;*/
+	/*}*/
+
+
+	.p14-product-2-tit {
+		height: 46px;
+		line-height: 46px;
+		border-bottom: 2px solid #dfdfdf;
+		margin-bottom: 30px;
+		padding-top: 26px;
+	}
+
+	.p14-product-2-tit b {
+		display: inline-block;
+		font-size: 1rem;
+		font-weight: normal;
+		color: #464646;
+		padding-left: 30px;
+		border-bottom: 2px solid #e5181f;
+		background: url(https://www.jyti.cn/template/default/images/p14-icon11.png) no-repeat 2px center;
+	}
+
+	.p14-product-2-tit span {
+		margin-left: 10px;
+		font-size: 14px;
+		font-family: Arial;
+		color: #c2c2c1;
+		text-transform: uppercase;
+	}
+
+	.p14-product-2-list dl {
+		float: left;
+		width: 47.8%;
+		border: 1px solid #dfdfdf;
+		margin-right: 1.5%;
+		margin-bottom: 1.5%;
+		box-sizing: border-box;
+	}
+
+	.p14-product-2-list dl.p14-product-clear {
+		margin-right: 0;
+	}
+
+	.p14-product-2-list dl img {
+		display: block;
+		width: 100%;
+	}
+
+	.p14-product-2-list dd {
+		padding: 10px 28px 10px 10px;
+		margin-right: 2px;
+		position: relative;
+	}
+
+	.p14-product-2-list h3 {
+		height: 1.625rem;
+		font-size: 0.875rem;
+		font-weight: normal;
+		line-height: 1.625rem;
+		color: #191919;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		text-align: center;
+	}
+
+	.p14-product-2-list h3 a {
+		color: #191919;
+	}
+
+	.p14-product-2-desc {
+		font-size: 14px;
+		line-height: 24px;
+		color: #666;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.p14-product-2-list dl:hover {
+		border-color: #e5181f;
+	}
+
+	.p14-product-2-list dl:hover h3 a {
+		color: #e5181f;
+	}
+
+
+
+
+	/* 联系我们 */
+
+	.contactus ul {
+		height: 180px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.contactus ul li {
+		border-bottom: 1px dashed #e9e9e9;
+		float: left;
+		height: 45px;
+		line-height: 45px;
+		margin: 14px 0 0;
+		padding: 0 0 14px 40px;
+		width: 100%;
+	}
+
+	.dianhua {
+		background: url(https://www.jyti.cn/template/default/images/dianhua.png) left top no-repeat;
+	}
+
+	.shouji {
+		background: url(https://www.jyti.cn/template/default/images/shouji.png) left top no-repeat;
+	}
+
+	.chuanzhen {
+		background: url(https://www.jyti.cn/template/default/images/chuanzhen.png) left top no-repeat;
+	}
+
+	.qq {
+		background: url(https://www.jyti.cn/template/default/images/qq.png) left top no-repeat;
+	}
+
+	.youxiang {
+		background: url(https://www.jyti.cn/template/default/images/youxiang.png) left top no-repeat;
+	}
+
+	.dizhi {
+		background: url(https://www.jyti.cn/template/default/images/dizhi.png) left top no-repeat;
+	}
+
+	.neirong img {
+		width: 90%;
+	}
+
+	.obnpp {
+		font-size: 22px;
+		font-weight: bold;
+		color: #ceae75;
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid #eee;
+	}
+
+
+	.lxwo {}
+
+	.lxwo ul li {
+		float: left;
+	}
+
+
+	.lxwo li {
+		display: flex;
+		/* justify-content: center; */
+		align-items: center;
+		width: 100%;
+		text-align: left;
+		height: 35px;
+		line-height: 35px;
+		font-size: 16px;
+	}
+
+	.lxwo li img {
+		width: 25px;
+		height: 25px;
+		margin-right: 5px;
+	}
+
+}
+
+
+
+.blk-sm img {
+	max-width: 100%;
+	margin: 0px auto;
+}

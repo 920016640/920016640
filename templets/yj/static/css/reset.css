@@ -1,0 +1,504 @@
+/*共用css，模板里只能模板设计小组人员才能修改*/
+/*模板设计小组人员修改以后注意本地备份一下*/
+/* 清除内外边距 */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+input,textarea {border: 2 none; box-shadow: none; outline: none;}
+/* 设置默认字体 */
+body,button, input, select, textarea {font: 14px/22px "Microsoft YaHei";color: #666;}
+h1 {font-size: 18px;}
+h2 {font-size: 16px;}
+h3 {font-size: 14px;}
+h4, h5, h6 {font-size: 100%;}
+.cl{
+	clear: both;
+}
+* h1,* h2,* h3,* h4,* h5,* h6{margin: 0px;}
+/* 重置列表元素 */
+ul, ol ,li{list-style: none;}
+/* 重置文本格式元素 */
+a {text-decoration: none; color: #333; word-wrap:break-word;outline:none;}/*英文换行*/
+a:hover {text-decoration: none; color:#e5181f;;}
+/* 重置表单元素 */
+legend {color: #000;} /* for ie6 */
+fieldset, img {border: none;} /* img 搭车：让链接里的 img 无边框 */
+
+
+@media (max-width: 768px) {
+	
+	fieldset, img {border: none; }
+}
+
+
+
+button, input, select, textarea {
+    font-size: 100%; /* 使表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html {overflow-y: scroll;}
+/*手机预览居中*/
+body{
+	
+    width: 100%;
+    overflow: hidden;
+}
+
+/*设置浮动*/
+.fl {float: left;}
+.fr {float: right;}
+.pr{position: relative;}
+.pa{position: absolute;}
+
+
+/*清除浮动*/
+.clear{clear: both;height: 0;}
+.blk-main .clearlist,.blk-main .listclear{ clear:both;height:0;padding:0;margin:0;border:0;width:100% ;float:none;}
+.b-main .clearlist,.b-main .listclear{ clear:both;height:0;padding:0;margin:0;border:0;width:100% ;float:none;}
+.clearafter:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+
+
+/*全局背景色1*/
+.body-color{background: #ffffff;}
+.bark-body-color{background:#181818;}
+
+.blk{margin-bottom: 25px;}
+/*Main模板*/
+.blk-main{width:1200px; margin: 0 auto;}
+/*小模块*/
+.blk-xs{width:240px;}
+/*中模块*/
+.blk-sm{width:930px;}
+/*小版块*/
+.blk{margin-bottom:30px;}
+
+
+
+
+/*首页板块全局补白*/
+.p{padding: 30px 0;}
+/*首页板块全局变量*/
+.b{clear: both;}
+/*内页板块全局变量*/
+.blk{margin-bottom:  20px;}
+
+
+/*数据更新中的样式*/
+.nodata {background:url("https://www.jyti.cn/template/default/images/nodata.png") no-repeat 58px 20px #fff;margin: 10px 0;padding:80px 0 80px 220px;border:1px solid #eee;text-transform: capitalize;}
+
+
+/*详情内容*/
+.endit-content{ line-height:28px;}
+.endit-content p{margin:15px 0;}
+.endit-content img{max-width:100%;}
+/*百度地图图片*/
+.endit-content #map img,.endit-content #dituContent img,.endit-content #platform img{max-width: inherit;}
+.endit-content em,.endit-content i{font-style: italic;}
+.endit-content .img-p{text-indent: 0px; padding-top: 14px; margin: 0px; text-align: center;}
+.endit-content .img-container{}
+.endit-content .img-block {text-indent: 0px;padding-top: 14px;margin: 0px;text-align: center;}
+/*详情关键字飘红加粗*/
+.endit-content a{color:#f00; font-weight: bold;}
+/*详情内容关键字加VI色*/
+/*.endit-content a{color:#093e5e; font-weight: bold;}*/
+
+/*表单弹框*/
+.nsw-modal {
+    width: 100%;
+    height: 100%;
+    background: rgba(225, 225, 225, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999; 
+}
+.modal-dialog {
+    position: fixed;
+    color:#000000;
+    top: 150px;
+    width: 400px;
+    border-radius: 3px;
+    min-height: 155px;
+    overflow: hidden;
+    z-index: 99998;
+    margin-left: -200px;
+    left: 50%; 
+}
+.modal-dialog .css-icon {
+    background-image: url("https://www.jyti.cn/template/default/images/modal-icons.png"); 
+}
+.modal-dialog .modal-head {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 20px;
+    background: #F6EFEF;
+    font-size: 14px; 
+}
+.modal-dialog .modal-head .modal-logo {
+    width: 15px;
+    height: 15px;
+    background-position: 1px 0px;
+    margin: 8px 5px 0 0;
+    float: left; 
+}
+.modal-dialog .modal-head .close {
+    float: right;
+    width: 15px;
+    height: 15px;
+    background-position: -14px 0px;
+    margin-top: 8px; 
+}
+.modal-dialog .modal-body {
+    width: 100%;
+    min-height: 125px;
+    background: #ffffff; 
+}
+.modal-dialog .modal-body .modal-body-left {
+    width: 140px;
+    float: left; 
+}
+.modal-dialog .modal-body .modal-body-left .icon {
+    width: 64px;
+    height: 64px;
+    margin: 30px 0 0 48px; 
+}
+.modal-dialog .modal-body .modal-body-left .success-message {
+    background-position: 0px -14px; 
+}
+.modal-dialog .modal-body .modal-body-left .warming-message {
+    background-position: 0px -78px; 
+}
+.modal-dialog .modal-body .modal-body-right {
+    width: 260px;
+    float: right;
+    padding-top: 20px; 
+}
+.modal-dialog .modal-body .modal-body-right .close-btn {
+    color: #000;
+    text-align: center;
+    width: 90px;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    background: #818079; 
+}
+.modal-dialog .modal-body .modal-body-right p {
+    line-height: 30px; 
+}
+
+/*翻页*/
+.p12-pagination-1-main {
+    margin: 0 auto; 
+    padding: 20px 0;
+    height: 30px;
+    text-align: center;
+}
+
+.p12-pagination-1 a,
+.p12-pagination-1 span {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 8px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #e5e5e5; 
+    text-align: center;
+    margin: 0 2px;
+    background: #fff;
+}
+
+.p12-pagination-1 span {
+    border: 1px solid #fff;
+}
+
+.p12-pagination-1 .page_curr {
+    background:#093e5e;
+    color:#fff;
+    border-color:#093e5e;
+}
+
+.p12-pagination-1 .laypage_first,
+.p12-pagination-1 .laypage_last {
+    display: none;
+}
+
+
+
+/*上下页*/
+.nyrbc7{ padding:5px 0 0px 5px; text-align:left;}
+.nyrbc7 ul{ line-height:25px;}
+.nyrbc7 ul li{ margin-bottom:5px; color:#999999; list-style:none}
+.nyrbc7 ul li a:link{font-size:15px;color: #636363;text-decoration: none;}
+.nyrbc7 ul li a:visited{font-size:15px;color:#636363;text-decoration: none;}
+.nyrbc7 ul li a:hover{font-size:15px;color: #03559e;text-decoration:none;}
+.nyrbc7 ul li span{ background-color:#7F7F7F; padding-left:5px; padding-right:5px;text-align:center;color:#FFFFFF; margin-right:5px;}
+
+@media (max-width: 768px) {
+	
+	/*Main模板*/
+	.blk-main{width:100%; margin: 0 auto;}
+	/*小模块*/
+	.blk-xs{width:100%;}
+	/*中模块*/
+	.blk-sm{width:100%;}
+	/*小版块*/
+	
+	.nyrbc7{ padding:5px 0 0px 5px; text-align:left;}
+	.nyrbc7 ul{ line-height:25px;}
+	.nyrbc7 ul li{ margin-bottom:5px; color:#999999; list-style:none; width: 100%;}
+	.nyrbc7 ul li a:link{font-size:15px;color: #636363;text-decoration: none;}
+	.nyrbc7 ul li a:visited{font-size:15px;color:#636363;text-decoration: none;}
+	.nyrbc7 ul li a:hover{font-size:15px;color: #03559e;text-decoration:none;}
+	.nyrbc7 ul li span{ background-color:#7F7F7F; padding-left:5px; padding-right:5px;text-align:center;color:#FFFFFF; margin-right:5px;}
+	}
+	
+
+
+
+
+/* 所谓的推荐阅读 */
+
+.pro-title1 {
+	overflow: hidden;
+	margin-bottom: 4px;
+}
+
+.pro-tt {
+	font-size: 18px;
+	color: #333;
+	float: left;
+	padding-left: 20px;
+	border-left: 4px solid #333;
+}
+
+.pro-title1 a {
+	color: #333;
+	font-size: 16px;
+	padding: 2px 6px;
+}
+
+.pro-title1 span {
+	float: right;
+}
+
+.news-all {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.news-re {
+	margin-top: 10px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.ct-1 {
+	float: left;
+	padding: 0px 10px;
+	width: 47%;
+	display: block;
+}
+
+.pro-content1 {
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 65%;
+	float: left;
+}
+
+.time {
+	/* float: right; */
+	color: #333;
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 30%;
+	text-align: right;
+}
+
+.pro-ex1 {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.box11 {
+	display: block;
+}
+
+.pro-ex1 .box11 {
+	width: calc((100% - 80px)/4);
+	margin: 0 10px;
+	float: left;
+}
+
+.box11 img {
+	width: 100%;
+	height: 200px;
+	/* padding: 0 10%; */
+	border: #ccc 1px solid;
+}
+
+.box-tt {
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 10px;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ct-1:hover .pro-content2 {
+	color: #333;
+}
+
+.ct-1:hover .time {
+	color: #333;
+}
+
+.ct-1:hover .pro-content1 {
+	color: #333;
+}
+
+.box11:hover .box-tt {
+	color: #333;
+}
+
+
+@media(max-width:992px) {
+	.box11 img {
+		padding: 0;
+	}
+}
+
+@media(max-width:768px) {
+	.news-details {
+		padding: 30px 0;
+	}
+
+	.news-tt-1 {
+		font-size: 18px;
+	}
+
+	.text-right p {
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.last-text,
+	.next-text,
+	.return {
+		font-size: 14px;
+		width: 180px;
+	}
+
+	/***********推荐系列********/
+	.pro-tt {
+		font-size: 16px;
+	}
+
+	.ct-1 {
+		width: 100%;
+	}
+
+	.pro-ex1 .box11 {
+		width: calc((100% - 40px)/2);
+	}
+
+	.pro-title1 a {
+		font-size: 14px;
+	}
+
+	.pro-content1 {
+		font-size: 14px;
+	}
+
+	.time {
+		font-size: 14px;
+	}
+}
+
+@media(max-width:530px) {
+	.page-nav a {
+		font-size: 12px;
+	}
+
+	/***********新闻内页********/
+	.news-tt-1 {
+		font-size: 16px;
+	}
+
+	.news-time1 a {
+		font-size: 12px;
+	}
+
+	.last-text,
+	.next-text,
+	.return {
+		width: 160px;
+	}
+
+	/***********推荐系列********/
+	.pro-ex1 .box11 {
+		width: calc((100% - 40px)/2);
+		margin: 0 10px;
+		margin-bottom: 10px;
+	}
+
+	.box-tt {
+		font-size: 14px;
+	}
+
+	.pro-title1 a {
+		font-size: 13px;
+	}
+
+	.time {
+		font-size: 13px;
+	}
+
+	.pro-detail-box-tit {
+		font-size: 14px;
+	}
+}
+
+@media(max-width:380px) {
+	.time {
+		width: 32%;
+	}
+}
+
+
+
+
+/* 轮播图 */
+.slider {position: relative;overflow: hidden;width: 100%;}
+.slideBox .hd {height: 10px;z-index:1; overflow: hidden;position: absolute;left: 50%;bottom: 20px;transform: translateX(-50%);z-index: 1;}
+.slideBox .hd ul{ text-align:center;  padding-top:5px;  }
+.slideBox .hd ul li {cursor:pointer;float: left;margin-right: 5px;width: 30px;height: 10px;line-height: 14px;text-align: center;background: #fff;}
+.slideBox .hd ul .on {background: #e5181f;color: #fff;}
+.slideBox .bd{ position:relative; z-index:0; }
+.slideBox .bd li img{width:100%; vertical-align:top;  }
